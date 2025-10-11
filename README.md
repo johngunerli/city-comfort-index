@@ -18,6 +18,14 @@ The meteorological records come from the "Compiled historical daily temperature 
 - Interior West, Midwest, and Northeast cities cluster at the low end of the map because sharp seasonal extremes keep them outside the comfort band most of the year.
 - Florida and Gulf Coast metros land mid-pack: they hit the comfort band often but humidity and heat spikes suppress their composite scores, while desert Southwest cities score lowest due to persistent hot departures.
 
+## Visualizations
+- **Top Comfort Index Leaders**  
+  ![Horizontal bar chart of the top U.S. cities by comfort index.](top_comfortable_cities.png)
+- **Nationwide Comfort Index Map**  
+  ![Map of U.S. cities colored by comfort index.](comfortable_cities_map.png)
+- **State-Level Comfort Index**  
+  ![Choropleth-style map of state comfort scores where available.](state_comfort_index_map.png)
+
 ## Requirements
 - Python 3.9+
 - Python packages: `pandas`, `numpy`, `plotly`
