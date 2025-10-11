@@ -11,6 +11,13 @@ This workspace analyzes how many "comfortable" days (daily mean temperature betw
 ## Data Source
 The meteorological records come from the "Compiled historical daily temperature and precipitation data for selected 210 U.S. cities" collection curated by Yuchuan Lai and David A. Dzombak (Carnegie Mellon University). The repository includes the raw NOAA GHCN station CSVs and the accompanying metadata file (`city_info.csv`). See `data/README.txt` for full attribution and variable descriptions.
 
+## Major Outcomes (2000–2019)
+- Pacific-coast metros dominate the comfort index; San Diego leads decisively thanks to frequent 65–75 °F days and low temperature variability.
+- Northern California and coastal Oregon/Washington score well, trading fewer warm days for minimal swings relative to 70 °F.
+- Maritime influences create the only high-scoring eastern outliers (Cape Hatteras, Pensacola, Gulfport, Galveston); purely continental cities rarely reach the top tier.
+- Interior West, Midwest, and Northeast cities cluster at the low end of the map because sharp seasonal extremes keep them outside the comfort band most of the year.
+- Florida and Gulf Coast metros land mid-pack: they hit the comfort band often but humidity and heat spikes suppress their composite scores, while desert Southwest cities score lowest due to persistent hot departures.
+
 ## Requirements
 - Python 3.9+
 - Python packages: `pandas`, `numpy`, `plotly`
